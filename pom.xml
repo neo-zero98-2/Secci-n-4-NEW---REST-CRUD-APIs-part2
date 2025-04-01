@@ -35,10 +35,13 @@
 			solo se ocupa japrepository de la libreria spring-boot-starter-data-jpa y una entity, una vez
 			cubiertos estos puntos se puede hacer rest sin un restController
 		-->
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
